@@ -25,8 +25,8 @@
         <servlet-class>servlets.AdminServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ForgotPasswordServlet</servlet-name>
-        <servlet-class>servlets.ForgotPasswordServlet</servlet-class>
+        <servlet-name>ResetPasswordServlet</servlet-name>
+        <servlet-class>servlets.ResetPasswordServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>NoteServlet</servlet-name>
@@ -41,8 +41,8 @@
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ForgotPasswordServlet</servlet-name>
-        <url-pattern>/forgotPassword</url-pattern>
+        <servlet-name>ResetPasswordServlet</servlet-name>
+        <url-pattern>/reset</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
@@ -55,11 +55,11 @@
     <env-entry>
         <env-entry-name>webmail-username</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>[sending_gmail_account_address]</env-entry-value>
+        <env-entry-value>dummymail5911@gmail.com</env-entry-value>
     </env-entry>
     <env-entry>
         <env-entry-name>webmail-password</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>[sending_gmail_account_password]</env-entry-value>
+        <env-entry-value>metmqpuurvazhhmk</env-entry-value>
     </env-entry>
 </web-app>
